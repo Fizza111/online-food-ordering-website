@@ -10,7 +10,7 @@ This project use Tailwind , HTML, CSS ,JAVASCRIPT and PHP for its functionality.
 
 ![Image](https://github.com/user-attachments/assets/ec930a6e-f2cc-441e-b9c4-e272624c5886)
 
-![Image](https://github.com/user-attachments/assets/125e6c20-c9af-4195-a8ab-0f105bbd193c)
+
 
 ![Image](https://github.com/user-attachments/assets/c01b0397-4ebf-428e-86a6-411202175aee)
 
