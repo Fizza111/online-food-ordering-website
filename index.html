@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
+    <link href="src/output.css" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .img{
+            background-image: url('images/chef.jpeg');
+            background-size: cover;
+            height: 400px;
+            width: 300px ;
+            position: relative;
+            right: 120px;
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    
+        <header id="header"></header>
+        <script>
+            fetch('header.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('header').innerHTML = data;
+                });
+        </script>
+       <main>
+        <div class="parenthome relative   overflow-hidden">
+            <div class="homeimage relative w-full h-[700px] bg-cover bg-center" style="background-image: url('images/home2.jpg');">  
+                <div class="absolute inset-0 bg-black bg-opacity-70"></div>
+            </div>
+            <div class="relative text-white">
+            <h1 class="text-[2.9rem] relative left-[200px] bottom-[440px]">WE ARE OPEN TO TAKING OUT ORDERS</h1>
+            <span class="relative left-[100px] text-gray-300 text-[1rem] bottom-[420px]">Explore our menu options and place a curbside pick-up order. Enjoy fresh food from the comfort of your own home. Stay healthy and safe, friends!</span>
+            </div>
+            <button class="relative bottom-[400px] left-[580px] text-white border border-white p-2 rounded-md m-1 hover:bg-black">
+                <a href="client.php">Order now</a>
+            </button>
+        </div>
+        <div>
+            <p class="text-center text-[2.9rem] relative bottom-[150px]">NEW ARRIVALS</p>
+            <div class="relative flex justify-center items-center h-[300px] w-full bottom-[100px] ">
+                <div class="c1 h-[300px] w-full m-[30px] bg-cover hover:h-[280px] hover:border hover:border-black" style="background-image: url('images/img11.jpg');"></div>
+                <div class="c2 h-[300px] w-full m-[30px] bg-cover hover:h-[280px] hover:border hover:border-black" style="background-image: url('images/img2.jpg');"></div>
+                <div class="c3 h-[300px] w-full m-[30px] bg-cover hover:h-[280px] hover:border hover:border-black" style="background-image: url('images/img3.jpg');"></div>
+                  
+                
+            </div>
+        </div>
+        <div>
+            <p class="text-center text-[2.9rem] relative bottom-[100px]">HI-TEA BUFFETS</p>
+            <div class="relative flex justify-center items-center h-[400px] w-full bottom-[80px] ">
+                <div class="c1 h-[400px] w-full m-[30px] bg-cover hover:h-[280px] hover:border hover:border-black" style="background-image: url('images/sweets.jpeg');"></div>
+                <div class="c2 h-[400px] w-full m-[30px] bg-cover hover:h-[280px] hover:border hover:border-black" style="background-image: url('images/sweets2.jpeg');"></div>
+                <div class="c3 h-[400px] w-full m-[30px] bg-cover hover:h-[280px] hover:border hover:border-black" style="background-image: url('images/img6.jpg');"></div>
+                  
+                
+            </div>
+        </div>
+       
+        <div class="h-[400px] overflow-hidden w-100 relative">
+            <div class="  h-[400px] w-full bg-cover bg-center" style="background-image:url('images/img10.jpg');">
+            </div>
+              <div class="absolute inset-0 bg-black opacity-70"></div> 
+              <div class="relative text-white">
+                <h1 class="text-[2.9rem] relative left-[380px] bottom-[280px]">FREE HOME DELIVERY</h1>
+                <div class="w-50">
+                <p class="relative left-[340px] text-gray-300 text-[1rem] bottom-[280px]  ">Our customer’s satisfaction is our first priority. By considering their feasibility  </p>
+                <p class="relative left-[310px] text-gray-300 text-[1rem] bottom-[280px]  ">their demands by providing them hot, fresh and delectable food exactly at their residence.</p>
+               </div>
+                </div>
+                <button class="relative bottom-[270px] left-[580px] text-white border border-white p-2 rounded-md m-1 hover:bg-black">
+                    <a href="contact.html">Call now</a>
+                </button>  
+        </div>
+        <div>
+            <p class="text-center text-[2.9rem] relative ">SPECIALITIES</p>
+            <div class="relative flex justify-center items-center h-[400px] w-full  mt-10">
+                <div class="c1 h-[400px] w-full m-[30px] bg-cover hover:h-[280px] hover:border hover:border-black" style="background-image: url('images/img21.jpeg');"></div>
+                <div class="c2 h-[400px] w-full m-[30px] bg-cover hover:h-[280px] hover:border hover:border-black" style="background-image: url('images/img22.jpeg');"></div>
+                <div class="c3 h-[400px] w-full m-[30px] bg-cover hover:h-[280px] hover:border hover:border-black" style="background-image: url('images/img23.jpeg');"></div>
+                  
+                
+            </div>
+        </div>
+
+
+        <div>
+            <p class="text-center text-[2.9rem] relative ">CUISINE</p>
+            <div class="relative flex justify-center items-center h-[400px] w-full  ">
+                <div class="c1 h-[400px] w-full m-[30px] bg-cover hover:h-[280px] hover:border hover:border-black" style="background-image: url('images/img25.jpeg');"></div>
+                <div class="c2 h-[400px] w-full m-[30px] bg-cover hover:h-[280px] hover:border hover:border-black" style="background-image: url('images/img26.jpeg');"></div>
+                <div class="c3 h-[400px] w-full m-[30px] bg-cover hover:h-[280px] hover:border hover:border-black" style="background-image: url('images/img27.jpeg');"></div>
+                  
+                
+            </div>
+        </div>
+
+        <div class="parenthome relative overflow-hidden mt-[50px]">
+            <div class="homeimage relative w-full h-[400px] bg-cover bg-center " style="background-image: url('images/img28.jpeg');">  
+                <div class="absolute inset-0 bg-black bg-opacity-70"></div>
+            </div>
+            <div class="relative text-white">
+            <h1 class="text-[2.9rem] relative left-[200px] bottom-[300px]">REGISTER YOURSELF AND GET UPDATES</h1>
+            <span class="relative left-[280px] text-gray-300 text-[1rem] bottom-[280px]">We have special discount for family and have weekend plan. Stay healthy and safe, friends!</span>
+            </div>
+            <button class="relative bottom-[250px] left-[580px] text-white border border-white p-2 rounded-md m-1 hover:bg-black">
+                <a href="register.php">Create account</a>
+            </button>
+        </div>
+
+
+        <div class="h-[300px] flex justify-center items-center">
+            <div>
+            <h1 class="text-center text-blue-950 text-[2.9rem]">CELEBRATING 30 YEARS</h1>
+            <pre class="mb-[20px]">     
+                Tandoori was first established in 1993. We start up with zeal us still taking it with enthusiasm.
+        Our devotion makes our visions broader and our hard work and consistency never let
+        us down in any pandemic that’s the only reason we are celebrating 30 years and providing our
+                    highly demanding services from the past 30 years.</pre>
+                    <button class="relative  text-white border bg-blue-950 left-[440px] border-white p-2 rounded-md m-1 hover:bg-black">
+                        <a href="register.php">Create account</a>
+                    </button>   
+          </div> 
+            
+        </div>
+
+
+
+        <div>
+            <p class="text-center text-[2.9rem] relative mt-[40px]">CATERING SERVICES FOR ALL OCCASSION</p>
+            <div class="relative flex justify-center items-center h-[400px] w-full mt-[20px] ">
+                <div class="c1 h-[400px] w-full m-[30px] bg-cover hover:h-[280px] hover:border hover:border-black" style="background-image: url('images/res1.jpeg');"></div>
+                <div class="c2 h-[400px] w-full m-[30px] bg-cover hover:h-[280px] hover:border hover:border-black" style="background-image: url('images/res2.jpeg');"></div>
+                <div class="c3 h-[400px] w-full m-[30px] bg-cover hover:h-[280px] hover:border hover:border-black" style="background-image: url('images/res3.jpeg');"></div>
+                  
+                
+            </div>
+        </div>
+        <div class="flex justify-center items-center">
+            <div class="mt-[20px]">
+               <h1 class="text-[1.5rem]">Book your catering services now</h1>
+               <button class="relative left-[120px] bg-blue-950 text-white border border-white p-2 rounded-md m-1 hover:bg-black mt-[25px]">
+                <a href="contact.html">Book now</a>
+             </button>
+            </div>
+        </div>
+
+
+        <div class="w-full ">
+            <div class="flex justify-between items-center">
+                <div class="relative left-[200px]">
+                    <h1 class="text-blue-950 text-[2rem] font-bold">Enjoy healthy and delicious food</h1>
+                    <pre>Order Great Diner Food Online — Serving Breakfast,Lunch,Dinner and  
+ Dessert 7 Days a Week.Order online or come today.Delicious food to
+ your delight.Eat in or take out. Order online, call or come in
+    .</pre>
+                </div>
+                <div class="img ">
+                    
+                </div>
+            </div>
+        </div>
+
+
+
+       </main>
+
+
+       <footer id="footer"></footer>
+       <script>
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer').innerHTML = data;
+            });
+    </script>
+    
+
+    
+</body>
+</html>
