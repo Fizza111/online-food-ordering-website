@@ -1,0 +1,34 @@
+CREATE DATABASE IF NOT EXISTS final project;
+
+
+
+CREATE TABLE `register` (
+  `username` varchar(30) NOT NULL,
+  `password` int(10) NOT NULL,
+  `name` varchar(80) NOT NULL
+)
+
+
+
+CREATE DATABASE IF NOT EXISTS food_delivery;
+
+
+CREATE TABLE `food_items` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL,
+  `price` decimal(10,2) NOT NULL,
+  `file_path` varchar(255) NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  PRIMARY KEY (`id`)
+)
+
+
+
+CREATE TABLE `manage_order` (
+  `name` varchar(50) NOT NULL,
+  `city` varchar(50) NOT NULL,
+  `location` varchar(50) NOT NULL,
+  `number` bigint(30) NOT NULL,
+  `price` varchar(8) NOT NULL,
+  `items` varchar(200) NOT NULL
+) 
