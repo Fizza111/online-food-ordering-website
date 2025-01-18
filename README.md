@@ -1,10 +1,12 @@
 # online-food-ordering-website
-## Make sure you have Xampp or wamp installed on your system
-## PHP should be installed on the system
-## Create Databases and tables using queries in projectdatabase file
-## Xamp have a directory htdocs make sure you download this project on this directory
-## admin username is admin and password is 1234
-This project use Tailwind , HTML, CSS ,JAVASCRIPT and PHP for its functionality.
+<ul>
+ <li>>Make sure you have Xampp or wamp installed on your system</li>
+<li> PHP should be installed on the system</li>
+<li> Create Databases and tables using queries in projectdatabase file</li>
+<li>Xamp have a directory htdocs make sure you download this project on this directory</li>
+<li>admin username is admin and password is 1234</li>
+<li>This project use Tailwind , HTML, CSS ,JAVASCRIPT and PHP for its functionality.</li>
+</ul>  
 ![Image](https://github.com/user-attachments/assets/470fa548-6f11-47e2-8263-7ef61cbc2d3b)
 ![Image](https://github.com/user-attachments/assets/e0eaa9aa-2f02-4de1-96cc-acdb3d1e6d93)
 ![Image](https://github.com/user-attachments/assets/9cd04e80-4e92-4eaa-ab82-a60ab742cadd)
